@@ -5,7 +5,7 @@ module.exports = async (client, message) => {
   // Prevent any chit-chats with other bots, or by himself.
   if (message.author.bot || message.author === client.user) return;
   
-  let prefix = client.config.prefix;
+  let prefix = process.env.prefix;
   
   // If the user doesn't doing any to the bot, return it.
   if (!message.content.startsWith(prefix)) return;

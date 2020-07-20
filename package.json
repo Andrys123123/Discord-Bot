@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "AndrasKollega",
   "license": "ISC",
@@ -11,6 +12,7 @@
     "@discordjs/opus": "^0.3.2",
     "ascii-table": "0.0.9",
     "discord.js": "^12.2.0",
+    "discord.js-commando": "^0.10.0",
     "discord.js-musicbot-addon": "^13.9.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.2.4",
@@ -23,5 +25,13 @@
   },
   "devDependencies": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrys123123/Discord-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrys123123/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Andrys123123/Discord-Bot#readme",
   "description": ""
 }
